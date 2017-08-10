@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="Hbv-H3-GcS" id="F3T-V1-YLY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <customObject id="Hbv-H3-GcS" customClass="OnestreamAppDelegate">
+            <connections>
+                <outlet property="navController" destination="pg4-Rg-fGM" id="EIb-zd-4n6"/>
+                <outlet property="window" destination="yPt-Uo-vgS" id="LLL-bY-mN0"/>
+            </connections>
+        </customObject>
+        <window contentMode="scaleToFill" visibleAtLaunch="YES" id="yPt-Uo-vgS">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="130" y="981"/>
+        </window>
+        <navigationController id="pg4-Rg-fGM">
+            <navigationBar key="navigationBar" contentMode="scaleToFill" id="Keu-81-0Ht">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </navigationBar>
+            <viewControllers>
+                <viewController id="kOW-U8-rE5">
+                    <navigationItem key="navigationItem" title="Home" id="l9x-NO-BNF">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" style="done" id="HMo-JA-iIn"/>
+                    </navigationItem>
+                </viewController>
+            </viewControllers>
+        </navigationController>
+    </objects>
+</document>

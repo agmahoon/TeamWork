@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectTableViewCell" customModule="TeamWorkChallenge" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="projectCellIdentifier" rowHeight="204" id="mMu-kv-nws" customClass="ProjectTableViewCell" customModule="TeamWorkChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="204"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mMu-kv-nws" id="CxE-N5-ce4">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="203.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Anl-E8-OfE">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Mst-Dx-aTk"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Ooj-32-b8S"/>
+                            <constraint firstAttribute="width" constant="50" id="ZVa-P6-JsP"/>
+                            <constraint firstAttribute="height" constant="50" id="caY-w0-O2B"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Project Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ra-H1-3yn">
+                        <rect key="frame" x="8" y="66" width="326" height="72"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project End Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uK8-0B-jhA">
+                        <rect key="frame" x="153" y="138" width="181" height="57"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ProjectName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXX-hl-5Je">
+                        <rect key="frame" x="66" y="19" width="134" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Project Start Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df9-HA-QFr">
+                        <rect key="frame" x="8" y="138" width="137" height="57"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="uK8-0B-jhA" secondAttribute="bottom" constant="8.5" id="0gc-sB-1OO"/>
+                    <constraint firstAttribute="bottom" secondItem="Df9-HA-QFr" secondAttribute="bottom" constant="8.5" id="2Tk-i0-jvH"/>
+                    <constraint firstItem="JXX-hl-5Je" firstAttribute="top" secondItem="CxE-N5-ce4" secondAttribute="top" constant="19" id="5RR-aY-WvS"/>
+                    <constraint firstItem="3ra-H1-3yn" firstAttribute="trailing" secondItem="uK8-0B-jhA" secondAttribute="trailing" id="CuF-HI-sAc"/>
+                    <constraint firstItem="JXX-hl-5Je" firstAttribute="leading" secondItem="Anl-E8-OfE" secondAttribute="trailing" constant="8" id="Dqi-e7-yfs"/>
+                    <constraint firstItem="uK8-0B-jhA" firstAttribute="leading" secondItem="Df9-HA-QFr" secondAttribute="trailing" constant="8" symbolic="YES" id="J7W-Oy-uDR"/>
+                    <constraint firstItem="Df9-HA-QFr" firstAttribute="leading" secondItem="CxE-N5-ce4" secondAttribute="leading" constant="8" id="Lth-zA-tJU"/>
+                    <constraint firstItem="Anl-E8-OfE" firstAttribute="leading" secondItem="CxE-N5-ce4" secondAttribute="leading" constant="8" id="OWX-vJ-QHj"/>
+                    <constraint firstItem="uK8-0B-jhA" firstAttribute="firstBaseline" secondItem="3ra-H1-3yn" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="Qdx-Cf-d5Q"/>
+                    <constraint firstItem="Anl-E8-OfE" firstAttribute="top" secondItem="CxE-N5-ce4" secondAttribute="top" constant="8" id="QgD-DP-Egf"/>
+                    <constraint firstItem="Df9-HA-QFr" firstAttribute="firstBaseline" secondItem="3ra-H1-3yn" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="R8I-Ju-WV3"/>
+                    <constraint firstItem="3ra-H1-3yn" firstAttribute="leading" secondItem="Df9-HA-QFr" secondAttribute="leading" id="RWN-4Z-IhB"/>
+                    <constraint firstItem="3ra-H1-3yn" firstAttribute="firstBaseline" secondItem="Anl-E8-OfE" secondAttribute="baseline" constant="21" symbolType="layoutAnchor" id="eVd-LW-sNz"/>
+                    <constraint firstAttribute="trailing" secondItem="uK8-0B-jhA" secondAttribute="trailing" constant="8" id="jQs-4P-ibI"/>
+                    <constraint firstItem="3ra-H1-3yn" firstAttribute="centerY" secondItem="CxE-N5-ce4" secondAttribute="centerY" id="vRC-n0-6R9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="endDate" destination="uK8-0B-jhA" id="dg7-rS-1hn"/>
+                <outlet property="logo" destination="Anl-E8-OfE" id="EG7-gM-Q3s"/>
+                <outlet property="name" destination="JXX-hl-5Je" id="MxE-WN-mwi"/>
+                <outlet property="pDescription" destination="3ra-H1-3yn" id="VOO-GV-6DQ"/>
+                <outlet property="startDate" destination="Df9-HA-QFr" id="8Dy-tK-9Wl"/>
+            </connections>
+            <point key="canvasLocation" x="8" y="-216"/>
+        </tableViewCell>
+    </objects>
+</document>
