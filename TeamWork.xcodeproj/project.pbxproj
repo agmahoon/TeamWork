@@ -30,6 +30,7 @@
 		9B944D6C1F39E26900859A63 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944D6B1F39E26900859A63 /* Client.swift */; };
 		9B944D6E1F39E2AE00859A63 /* ClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944D6D1F39E2AE00859A63 /* ClientManager.swift */; };
 		9B944D701F39E39300859A63 /* ClientAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B944D6F1F39E39300859A63 /* ClientAssembly.swift */; };
+		9B9E28F61F3C83F300D3709B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9E28F51F3C83C900D3709B /* Default-568h@2x.png */; };
 		9BB3465D1F3BD0D300280320 /* ProjectsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3465C1F3BD0D300280320 /* ProjectsViewControllerTests.swift */; };
 		9BB346601F3C734300280320 /* TaskListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3465F1F3C734300280320 /* TaskListViewControllerTests.swift */; };
 		9BB8164E1F3B4D40008AB4BE /* JSONParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8164C1F3B4AE3008AB4BE /* JSONParserHelper.swift */; };
@@ -48,11 +49,12 @@
 		9BE25D8E1F39D252001BC505 /* RESTfulAPIPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE25D8D1F39D252001BC505 /* RESTfulAPIPaths.swift */; };
 		9BE25D901F39D3AE001BC505 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE25D8F1F39D3AE001BC505 /* APIKey.swift */; };
 		9BE25D941F39D5B7001BC505 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE25D931F39D5B7001BC505 /* Request.swift */; };
+		9BF2E6F01F3C88C700747C9D /* Pods_TeamWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF2E6EE1F3C88C700747C9D /* Pods_TeamWork.framework */; };
+		9BF2E6F11F3C88C700747C9D /* Pods_TeamWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF2E6EF1F3C88C700747C9D /* Pods_TeamWorkTests.framework */; };
+		9BF2E6F31F3C8B2900747C9D /* JSONParserHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2E6F21F3C8B2900747C9D /* JSONParserHelperTests.swift */; };
 		9BFBC2E01F39C38200983657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBC2DF1F39C38200983657 /* AppDelegate.swift */; };
 		9BFBC2E71F39C38200983657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBC2E61F39C38200983657 /* Assets.xcassets */; };
-		9BFBC2F51F39C38200983657 /* TeamWorkChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBC2F41F39C38200983657 /* TeamWorkChallengeTests.swift */; };
-		B49BBAD1B90BF4CC4EF289AF /* Pods_TeamWorkChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40230D81D21475781453E584 /* Pods_TeamWorkChallenge.framework */; };
-		CE5AB49801315A86C012DB46 /* Pods_TeamWorkChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F068473DEEA313B5AB41AE76 /* Pods_TeamWorkChallengeTests.framework */; };
+		B68DB69C01D9B594E1BF1C13 /* Pods_TeamWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06843065F78D7B823B9BCD02 /* Pods_TeamWorkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +68,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06843065F78D7B823B9BCD02 /* Pods_TeamWorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamWorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40230D81D21475781453E584 /* Pods_TeamWorkChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamWorkChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AD6CF7DFACC9191097E7185 /* Pods-TeamWorkChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorkChallengeTests/Pods-TeamWorkChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6266544FEB84C0BDE636747D /* Pods-TeamWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWork/Pods-TeamWork.debug.xcconfig"; sourceTree = "<group>"; };
+		8C901E6B9A448AC4157990FF /* Pods-TeamWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorkTests/Pods-TeamWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9168661329D94E28484F6341 /* Pods-TeamWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWork/Pods-TeamWork.release.xcconfig"; sourceTree = "<group>"; };
 		9B26C9271F3A886A00E2AEEA /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskListViewController.swift; path = UI/TaskList/TaskListViewController.swift; sourceTree = "<group>"; };
 		9B26C9291F3A8C1100E2AEEA /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateFormatterExtension.swift; path = Common/DateFormatterExtension.swift; sourceTree = "<group>"; };
 		9B26C92C1F3A8D3B00E2AEEA /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskList.swift; path = Functionality/TaskList/TaskList.swift; sourceTree = "<group>"; };
@@ -91,6 +96,7 @@
 		9B944D6B1F39E26900859A63 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Functionality/Network/Client.swift; sourceTree = "<group>"; };
 		9B944D6D1F39E2AE00859A63 /* ClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClientManager.swift; path = Functionality/Network/ClientManager.swift; sourceTree = "<group>"; };
 		9B944D6F1F39E39300859A63 /* ClientAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClientAssembly.swift; path = Functionality/Network/ClientAssembly.swift; sourceTree = "<group>"; };
+		9B9E28F51F3C83C900D3709B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9BB3465C1F3BD0D300280320 /* ProjectsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewControllerTests.swift; sourceTree = "<group>"; };
 		9BB3465F1F3C734300280320 /* TaskListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewControllerTests.swift; sourceTree = "<group>"; };
 		9BB8164B1F3B4A6C008AB4BE /* projects.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = projects.json; sourceTree = "<group>"; };
@@ -109,17 +115,18 @@
 		9BE25D8D1F39D252001BC505 /* RESTfulAPIPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESTfulAPIPaths.swift; path = Common/RESTfulAPIPaths.swift; sourceTree = "<group>"; };
 		9BE25D8F1F39D3AE001BC505 /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIKey.swift; path = Common/APIKey.swift; sourceTree = "<group>"; };
 		9BE25D931F39D5B7001BC505 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Functionality/Request.swift; sourceTree = "<group>"; };
+		9BF2E6EE1F3C88C700747C9D /* Pods_TeamWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_TeamWork.framework; path = "../../../../Library/Developer/Xcode/DerivedData/TeamWork-cssgyywpdohzjqftfppowduzndpe/Build/Products/Debug-iphonesimulator/Pods_TeamWork.framework"; sourceTree = "<group>"; };
+		9BF2E6EF1F3C88C700747C9D /* Pods_TeamWorkTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_TeamWorkTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_TeamWorkTests.framework"; sourceTree = "<group>"; };
+		9BF2E6F21F3C8B2900747C9D /* JSONParserHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParserHelperTests.swift; sourceTree = "<group>"; };
 		9BFBC2DC1F39C38200983657 /* TeamWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFBC2DF1F39C38200983657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BFBC2E61F39C38200983657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFBC2EB1F39C38200983657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BFBC2F01F39C38200983657 /* TeamWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BFBC2F41F39C38200983657 /* TeamWorkChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamWorkChallengeTests.swift; sourceTree = "<group>"; };
 		9BFBC2F61F39C38200983657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A605E694032473A8F823B55F /* Pods-TeamWorkChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorkChallenge/Pods-TeamWorkChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		AB6265D438235E1885CC50FB /* Pods-TeamWorkChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorkChallengeTests/Pods-TeamWorkChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8CD8D0B8A972D6BC583D464 /* Pods-TeamWorkChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorkChallenge/Pods-TeamWorkChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		BD92DA56958F917F2776D877 /* Pods_TeamWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F068473DEEA313B5AB41AE76 /* Pods_TeamWorkChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamWorkChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9B6F4234E8BF1C2E90DFCD /* Pods-TeamWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamWorkTests/Pods-TeamWorkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49BBAD1B90BF4CC4EF289AF /* Pods_TeamWorkChallenge.framework in Frameworks */,
+				9BF2E6F01F3C88C700747C9D /* Pods_TeamWork.framework in Frameworks */,
+				9BF2E6F11F3C88C700747C9D /* Pods_TeamWorkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5AB49801315A86C012DB46 /* Pods_TeamWorkChallengeTests.framework in Frameworks */,
+				B68DB69C01D9B594E1BF1C13 /* Pods_TeamWorkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +153,12 @@
 		658279B8DC247F5B142C3E0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BF2E6EF1F3C88C700747C9D /* Pods_TeamWorkTests.framework */,
 				40230D81D21475781453E584 /* Pods_TeamWorkChallenge.framework */,
 				F068473DEEA313B5AB41AE76 /* Pods_TeamWorkChallengeTests.framework */,
+				BD92DA56958F917F2776D877 /* Pods_TeamWork.framework */,
+				9BF2E6EE1F3C88C700747C9D /* Pods_TeamWork.framework */,
+				06843065F78D7B823B9BCD02 /* Pods_TeamWorkTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,6 +195,7 @@
 				9B3F50E41F3B380D00C70B4A /* APIKeyTests.swift */,
 				9B3F50E61F3B38DA00C70B4A /* ConstantsTests.swift */,
 				9B3F50E81F3B395900C70B4A /* DateFormatterExtensionTests.swift */,
+				9BF2E6F21F3C8B2900747C9D /* JSONParserHelperTests.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -352,8 +365,9 @@
 		9BFBC2D31F39C38200983657 = {
 			isa = PBXGroup;
 			children = (
-				9BFBC2DE1F39C38200983657 /* TeamWorkChallenge */,
-				9BFBC2F31F39C38200983657 /* TeamWorkChallengeTests */,
+				9B9E28F51F3C83C900D3709B /* Default-568h@2x.png */,
+				9BFBC2DE1F39C38200983657 /* TeamWork */,
+				9BFBC2F31F39C38200983657 /* TeamWorkTests */,
 				9BFBC2DD1F39C38200983657 /* Products */,
 				F95B165A32878115E3CDD7D1 /* Pods */,
 				658279B8DC247F5B142C3E0A /* Frameworks */,
@@ -369,7 +383,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BFBC2DE1F39C38200983657 /* TeamWorkChallenge */ = {
+		9BFBC2DE1F39C38200983657 /* TeamWork */ = {
 			isa = PBXGroup;
 			children = (
 				9BE25D8C1F39D211001BC505 /* Common */,
@@ -377,19 +391,18 @@
 				9BE25D831F39C55F001BC505 /* UI */,
 				9BFBC2FF1F39C3B900983657 /* SupportingFiles */,
 			);
-			path = TeamWorkChallenge;
+			path = TeamWork;
 			sourceTree = "<group>";
 		};
-		9BFBC2F31F39C38200983657 /* TeamWorkChallengeTests */ = {
+		9BFBC2F31F39C38200983657 /* TeamWorkTests */ = {
 			isa = PBXGroup;
 			children = (
 				9B3F50E11F3B363D00C70B4A /* UI */,
 				9B3F50E01F3B363000C70B4A /* Functionality */,
 				9B3F50DF1F3B362700C70B4A /* Common */,
-				9BFBC2F41F39C38200983657 /* TeamWorkChallengeTests.swift */,
 				9BFBC2F61F39C38200983657 /* Info.plist */,
 			);
-			path = TeamWorkChallengeTests;
+			path = TeamWorkTests;
 			sourceTree = "<group>";
 		};
 		9BFBC2FF1F39C3B900983657 /* SupportingFiles */ = {
@@ -410,10 +423,10 @@
 		F95B165A32878115E3CDD7D1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8CD8D0B8A972D6BC583D464 /* Pods-TeamWorkChallenge.debug.xcconfig */,
-				A605E694032473A8F823B55F /* Pods-TeamWorkChallenge.release.xcconfig */,
-				AB6265D438235E1885CC50FB /* Pods-TeamWorkChallengeTests.debug.xcconfig */,
-				6AD6CF7DFACC9191097E7185 /* Pods-TeamWorkChallengeTests.release.xcconfig */,
+				6266544FEB84C0BDE636747D /* Pods-TeamWork.debug.xcconfig */,
+				9168661329D94E28484F6341 /* Pods-TeamWork.release.xcconfig */,
+				8C901E6B9A448AC4157990FF /* Pods-TeamWorkTests.debug.xcconfig */,
+				FB9B6F4234E8BF1C2E90DFCD /* Pods-TeamWorkTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -510,6 +523,7 @@
 				9B26C9371F3B0FEB00E2AEEA /* MainWindow_iPad.xib in Resources */,
 				9B26C9361F3B0FEB00E2AEEA /* LaunchScreen.xib in Resources */,
 				9B26C9391F3B170A00E2AEEA /* ProjectsViewController.xib in Resources */,
+				9B9E28F61F3C83F300D3709B /* Default-568h@2x.png in Resources */,
 				9B26C93B1F3B17B300E2AEEA /* ProjectTableViewCell.xib in Resources */,
 				9B26C93D1F3B244A00E2AEEA /* TaskListViewController.xib in Resources */,
 				9B26C9351F3B0FEB00E2AEEA /* MainWindow.xib in Resources */,
@@ -541,7 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorkChallenge/Pods-TeamWorkChallenge-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWork/Pods-TeamWork-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		75CAB6BE31E790BEC4F156E2 /* [CP] Check Pods Manifest.lock */ = {
@@ -571,7 +585,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorkChallengeTests/Pods-TeamWorkChallengeTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorkTests/Pods-TeamWorkTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8123E00AB1DC9673A53D720C /* [CP] Copy Pods Resources */ = {
@@ -586,7 +600,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorkChallenge/Pods-TeamWorkChallenge-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWork/Pods-TeamWork-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B031D1DAAA2D34717EDDD6D /* [CP] Check Pods Manifest.lock */ = {
@@ -616,7 +630,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorkChallengeTests/Pods-TeamWorkChallengeTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamWorkTests/Pods-TeamWorkTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -652,6 +666,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF2E6F31F3C8B2900747C9D /* JSONParserHelperTests.swift in Sources */,
 				9BB816591F3B57A6008AB4BE /* ClientAssembly+Mock.swift in Sources */,
 				9BB3465D1F3BD0D300280320 /* ProjectsViewControllerTests.swift in Sources */,
 				9B3F50E91F3B395900C70B4A /* DateFormatterExtensionTests.swift in Sources */,
@@ -662,7 +677,6 @@
 				9BB346601F3C734300280320 /* TaskListViewControllerTests.swift in Sources */,
 				9B3F50E51F3B380D00C70B4A /* APIKeyTests.swift in Sources */,
 				9BB816661F3BCAB5008AB4BE /* TaskListTests.swift in Sources */,
-				9BFBC2F51F39C38200983657 /* TeamWorkChallengeTests.swift in Sources */,
 				9BB816511F3B51C3008AB4BE /* ProjectTests.swift in Sources */,
 				9B3F50E31F3B368B00C70B4A /* RESTfulAPIPathsTests.swift in Sources */,
 				9BB816621F3B58A5008AB4BE /* ClientAssemblyTests.swift in Sources */,
@@ -779,14 +793,18 @@
 		};
 		9BFBC2FA1F39C38200983657 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8CD8D0B8A972D6BC583D464 /* Pods-TeamWorkChallenge.debug.xcconfig */;
+			baseConfigurationReference = 6266544FEB84C0BDE636747D /* Pods-TeamWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = TeamWorkChallenge/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = TeamWork/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWorkChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -795,14 +813,18 @@
 		};
 		9BFBC2FB1F39C38200983657 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A605E694032473A8F823B55F /* Pods-TeamWorkChallenge.release.xcconfig */;
+			baseConfigurationReference = 9168661329D94E28484F6341 /* Pods-TeamWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = TeamWorkChallenge/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = TeamWork/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWorkChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -811,13 +833,13 @@
 		};
 		9BFBC2FD1F39C38200983657 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB6265D438235E1885CC50FB /* Pods-TeamWorkChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 8C901E6B9A448AC4157990FF /* Pods-TeamWorkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TeamWorkChallengeTests/Info.plist;
+				INFOPLIST_FILE = TeamWorkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWorkChallengeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWorkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamWork.app/TeamWork";
@@ -826,13 +848,13 @@
 		};
 		9BFBC2FE1F39C38200983657 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AD6CF7DFACC9191097E7185 /* Pods-TeamWorkChallengeTests.release.xcconfig */;
+			baseConfigurationReference = FB9B6F4234E8BF1C2E90DFCD /* Pods-TeamWorkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TeamWorkChallengeTests/Info.plist;
+				INFOPLIST_FILE = TeamWorkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWorkChallengeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.own.TeamWorkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamWork.app/TeamWork";
@@ -849,7 +871,7 @@
 				9BFBC2F81F39C38200983657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9BFBC2F91F39C38200983657 /* Build configuration list for PBXNativeTarget "TeamWork" */ = {
 			isa = XCConfigurationList;
@@ -858,7 +880,7 @@
 				9BFBC2FB1F39C38200983657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9BFBC2FC1F39C38200983657 /* Build configuration list for PBXNativeTarget "TeamWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -867,7 +889,7 @@
 				9BFBC2FE1F39C38200983657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
