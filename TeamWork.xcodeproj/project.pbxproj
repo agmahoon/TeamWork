@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		529DC8B631886EC17D93B347 /* Pods_TeamWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD92DA56958F917F2776D877 /* Pods_TeamWork.framework */; };
 		9B26C9281F3A886A00E2AEEA /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26C9271F3A886A00E2AEEA /* TaskListViewController.swift */; };
 		9B26C92A1F3A8C1100E2AEEA /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26C9291F3A8C1100E2AEEA /* DateFormatterExtension.swift */; };
 		9B26C92D1F3A8D3B00E2AEEA /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26C92C1F3A8D3B00E2AEEA /* TaskList.swift */; };
@@ -78,9 +77,9 @@
 		9B26C9291F3A8C1100E2AEEA /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateFormatterExtension.swift; path = Common/DateFormatterExtension.swift; sourceTree = "<group>"; };
 		9B26C92C1F3A8D3B00E2AEEA /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskList.swift; path = Functionality/TaskList/TaskList.swift; sourceTree = "<group>"; };
 		9B26C92E1F3A8D5300E2AEEA /* TaskListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskListService.swift; path = Functionality/TaskList/TaskListService.swift; sourceTree = "<group>"; };
-		9B26C9321F3B0FEA00E2AEEA /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		9B26C9331F3B0FEA00E2AEEA /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		9B26C9341F3B0FEA00E2AEEA /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow_iPad.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		9B26C9321F3B0FEA00E2AEEA /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		9B26C9331F3B0FEA00E2AEEA /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		9B26C9341F3B0FEA00E2AEEA /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
 		9B26C9381F3B170A00E2AEEA /* ProjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProjectsViewController.xib; path = UI/Projects/ProjectsViewController.xib; sourceTree = "<group>"; };
 		9B26C93A1F3B17B300E2AEEA /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProjectTableViewCell.xib; path = UI/Projects/ProjectTableViewCell.xib; sourceTree = "<group>"; };
 		9B26C93C1F3B244A00E2AEEA /* TaskListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TaskListViewController.xib; path = UI/TaskList/TaskListViewController.xib; sourceTree = "<group>"; };
@@ -137,7 +136,6 @@
 			files = (
 				9BF2E6F01F3C88C700747C9D /* Pods_TeamWork.framework in Frameworks */,
 				9BF2E6F11F3C88C700747C9D /* Pods_TeamWorkTests.framework in Frameworks */,
-				529DC8B631886EC17D93B347 /* Pods_TeamWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
