@@ -1,2 +1,0 @@
-# TeamWork
-A Sample app
