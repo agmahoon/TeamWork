@@ -9,7 +9,7 @@
 import XCTest
 import ObjectMapper
 
-@testable import TeamWork
+@testable import Challenge
 
 class ProjectTests: XCTestCase {
     

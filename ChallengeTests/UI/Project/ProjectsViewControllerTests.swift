@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TeamWork
+@testable import Challenge
 
 class ProjectsViewControllerTests: XCTestCase {
     

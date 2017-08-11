@@ -8,7 +8,7 @@
 
 import Foundation
 import SwiftyJSON
-@testable import TeamWork
+@testable import Challenge
 
 /**
  Mocking request send to backend

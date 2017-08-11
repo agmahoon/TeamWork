@@ -45,13 +45,13 @@
 		9BC06DBF1F3E200800DEDCB6 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DBB1F3E200700DEDCB6 /* ClientTests.swift */; };
 		9BC06DC01F3E200800DEDCB6 /* ClientManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DBC1F3E200700DEDCB6 /* ClientManagerMock.swift */; };
 		9BC06DC11F3E200800DEDCB6 /* ClientAssembly+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DBD1F3E200700DEDCB6 /* ClientAssembly+Mock.swift */; };
-		9BC06DC31F3E201000DEDCB6 /* SendRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DC21F3E201000DEDCB6 /* SendRequestMock.swift */; };
 		9BC06DC81F3E203600DEDCB6 /* TaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DC61F3E203600DEDCB6 /* TaskListTests.swift */; };
 		9BC06DC91F3E203600DEDCB6 /* TaskListServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DC71F3E203600DEDCB6 /* TaskListServiceTests.swift */; };
-		9BC06DCC1F3E203F00DEDCB6 /* ProjectServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DCA1F3E203F00DEDCB6 /* ProjectServiceTests.swift */; };
-		9BC06DCD1F3E203F00DEDCB6 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DCB1F3E203F00DEDCB6 /* ProjectTests.swift */; };
 		9BC06DCF1F3E204E00DEDCB6 /* TaskListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DCE1F3E204E00DEDCB6 /* TaskListViewControllerTests.swift */; };
-		9BC06DD11F3E205300DEDCB6 /* ProjectsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DD01F3E205300DEDCB6 /* ProjectsViewControllerTests.swift */; };
+		9BF72E2A1F3E28DB00BC5BD9 /* ProjectServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72E291F3E28D700BC5BD9 /* ProjectServiceTests.swift */; };
+		9BF72E2B1F3E28DD00BC5BD9 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72E281F3E28D700BC5BD9 /* ProjectTests.swift */; };
+		9BF72E2D1F3E28F200BC5BD9 /* SendRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72E2C1F3E28EC00BC5BD9 /* SendRequestMock.swift */; };
+		9BF72E2F1F3E290800BC5BD9 /* ProjectsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72E2E1F3E290400BC5BD9 /* ProjectsViewControllerTests.swift */; };
 		E8B31C031902DF9DD24F2824 /* Pods_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E76DE6531AA63E63B0E2FB8 /* Pods_Challenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,13 +112,13 @@
 		9BC06DBB1F3E200700DEDCB6 /* ClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		9BC06DBC1F3E200700DEDCB6 /* ClientManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientManagerMock.swift; sourceTree = "<group>"; };
 		9BC06DBD1F3E200700DEDCB6 /* ClientAssembly+Mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ClientAssembly+Mock.swift"; sourceTree = "<group>"; };
-		9BC06DC21F3E201000DEDCB6 /* SendRequestMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendRequestMock.swift; path = ../../../../../../TeamWork/TeamWorkTests/Functionality/Network/Send/SendRequestMock.swift; sourceTree = "<group>"; };
 		9BC06DC61F3E203600DEDCB6 /* TaskListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTests.swift; sourceTree = "<group>"; };
 		9BC06DC71F3E203600DEDCB6 /* TaskListServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListServiceTests.swift; sourceTree = "<group>"; };
-		9BC06DCA1F3E203F00DEDCB6 /* ProjectServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectServiceTests.swift; path = ../../../../../TeamWork/TeamWorkTests/Functionality/Project/ProjectServiceTests.swift; sourceTree = "<group>"; };
-		9BC06DCB1F3E203F00DEDCB6 /* ProjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectTests.swift; path = ../../../../../TeamWork/TeamWorkTests/Functionality/Project/ProjectTests.swift; sourceTree = "<group>"; };
 		9BC06DCE1F3E204E00DEDCB6 /* TaskListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewControllerTests.swift; sourceTree = "<group>"; };
-		9BC06DD01F3E205300DEDCB6 /* ProjectsViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectsViewControllerTests.swift; path = ../../../../../TeamWork/TeamWorkTests/UI/Project/ProjectsViewControllerTests.swift; sourceTree = "<group>"; };
+		9BF72E281F3E28D700BC5BD9 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		9BF72E291F3E28D700BC5BD9 /* ProjectServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectServiceTests.swift; sourceTree = "<group>"; };
+		9BF72E2C1F3E28EC00BC5BD9 /* SendRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestMock.swift; sourceTree = "<group>"; };
+		9BF72E2E1F3E290400BC5BD9 /* ProjectsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewControllerTests.swift; sourceTree = "<group>"; };
 		E392306A20FCAFDF1202DF05 /* Pods-ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeTests/Pods-ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -337,7 +337,7 @@
 		9BC06DAA1F3E1FBC00DEDCB6 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				9BC06DD01F3E205300DEDCB6 /* ProjectsViewControllerTests.swift */,
+				9BF72E2E1F3E290400BC5BD9 /* ProjectsViewControllerTests.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -376,7 +376,7 @@
 		9BC06DB81F3E1FF000DEDCB6 /* Send */ = {
 			isa = PBXGroup;
 			children = (
-				9BC06DC21F3E201000DEDCB6 /* SendRequestMock.swift */,
+				9BF72E2C1F3E28EC00BC5BD9 /* SendRequestMock.swift */,
 			);
 			path = Send;
 			sourceTree = "<group>";
@@ -404,8 +404,8 @@
 		9BC06DC51F3E202500DEDCB6 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				9BC06DCA1F3E203F00DEDCB6 /* ProjectServiceTests.swift */,
-				9BC06DCB1F3E203F00DEDCB6 /* ProjectTests.swift */,
+				9BF72E291F3E28D700BC5BD9 /* ProjectServiceTests.swift */,
+				9BF72E281F3E28D700BC5BD9 /* ProjectTests.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -646,19 +646,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC06DBF1F3E200800DEDCB6 /* ClientTests.swift in Sources */,
-				9BC06DCC1F3E203F00DEDCB6 /* ProjectServiceTests.swift in Sources */,
+				9BF72E2A1F3E28DB00BC5BD9 /* ProjectServiceTests.swift in Sources */,
 				9BC06DB61F3E1FDA00DEDCB6 /* DateFormatterExtensionTests.swift in Sources */,
 				9BC06DC81F3E203600DEDCB6 /* TaskListTests.swift in Sources */,
 				9BC06DB31F3E1FDA00DEDCB6 /* APIKeyTests.swift in Sources */,
-				9BC06DC31F3E201000DEDCB6 /* SendRequestMock.swift in Sources */,
 				9BC06DB41F3E1FDA00DEDCB6 /* ConstantsTests.swift in Sources */,
 				9BC06DC11F3E200800DEDCB6 /* ClientAssembly+Mock.swift in Sources */,
-				9BC06DD11F3E205300DEDCB6 /* ProjectsViewControllerTests.swift in Sources */,
 				9BC06DCF1F3E204E00DEDCB6 /* TaskListViewControllerTests.swift in Sources */,
+				9BF72E2F1F3E290800BC5BD9 /* ProjectsViewControllerTests.swift in Sources */,
+				9BF72E2D1F3E28F200BC5BD9 /* SendRequestMock.swift in Sources */,
 				9BC06DB21F3E1FDA00DEDCB6 /* JSONParserHelperTests.swift in Sources */,
 				9BC06DC91F3E203600DEDCB6 /* TaskListServiceTests.swift in Sources */,
 				9BC06DBE1F3E200800DEDCB6 /* ClientAssemblyTests.swift in Sources */,
-				9BC06DCD1F3E203F00DEDCB6 /* ProjectTests.swift in Sources */,
+				9BF72E2B1F3E28DD00BC5BD9 /* ProjectTests.swift in Sources */,
 				9BC06DC01F3E200800DEDCB6 /* ClientManagerMock.swift in Sources */,
 				9BC06DB51F3E1FDA00DEDCB6 /* RESTfulAPIPathsTests.swift in Sources */,
 			);

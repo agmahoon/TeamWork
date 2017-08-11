@@ -8,7 +8,7 @@
 
 import XCTest
 import SwiftyJSON
-@testable import TeamWork
+@testable import Challenge
 
 class ProjectServiceTests: XCTestCase {
     
